@@ -1,0 +1,102 @@
+body{
+    font-family: serif;
+}
+
+header{
+    background-image: url(../image/backImg2.jpg);
+    background-size: cover;
+    height: 500px;
+    padding: 50px;
+}
+
+.headerTop{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerTopLeft{
+    font-size: 50px;
+}
+
+.headerTopLeft__text{
+    font-size: 20px;
+}
+
+.headerTopRight{
+    font-size: 14px;
+    color: white;
+} 
+
+.headerBottom{
+    color: black;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
+    color: white;
+}
+
+.contentsTitle{
+    padding: 50px 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+.content{
+    display: flex;
+}
+
+.contentLeft{
+    width: 50%;
+}
+
+.contentLeft__image{
+    width: 100%;
+}
+
+.contentRight{
+    width: 50%;
+    text-align: center;
+    padding: 100px 50px;
+}
+
+.contentRight__title{
+    font-size: 30px;
+}
+
+.subContents{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.subContents__title{
+    font-size: 50px;
+}
+
+.subContents__text{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.383);
+    padding: 50px;
+}
+
+.footerIcons{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.fa-instagram{
+    color: red;
+}
+
+.fa-facebook{
+    color: rgb(0, 0, 143);
+}
+
+.fa-twitter{
+    color: aqua;
+}
